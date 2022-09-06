@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\fonts\Starjedi.ttf" />
+    <None Remove="assets\images\asteroid1.png" />
+    <None Remove="assets\images\asteroid2.png" />
+    <None Remove="assets\images\background.jpg" />
+    <None Remove="assets\images\Commands.png" />
+    <None Remove="assets\images\PurpleLaser.png" />
+    <None Remove="assets\images\RedLaser.png" />
+    <None Remove="assets\images\TieFighter.png" />
+    <None Remove="assets\images\TieInterceptor.png" />
+    <None Remove="assets\images\XWing.png" />
+    <None Remove="assets\sounds\Star_Wars.wav" />
+    <None Remove="assets\sounds\xwing-laser.wav" />
+    <None Remove="assets\text\TextIntro.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="assets\sounds\Star_Wars.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\sounds\xwing-laser.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\text\TextIntro.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Utilities" Version="17.0.31902.203" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\fonts\Starjedi.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\asteroid1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\asteroid2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\background.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\Commands.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\PurpleLaser.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\RedLaser.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\TieFighter.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\TieInterceptor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\images\XWing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
